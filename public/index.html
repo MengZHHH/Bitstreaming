@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:height="http://www.w3.org/1999/xhtml" xmlns:max-width="http://www.w3.org/1999/xhtml"
+      xmlns:width="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>BitStreaming</title>
+	<!-- core CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+
+    <!--<script src="js/jquery.js"></script>-->
+    <!--<script>-->
+        <!--var $x = jQuery.noConflict();-->
+        <!--// alert("Version: "+$x.fn.jquery);-->
+    <!--</script>-->
+
+    <!--<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--<script>-->
+        <!--var $y = jQuery.noConflict();-->
+        <!--// alert("Version: "+$y.fn.jquery);-->
+    <!--</script>-->
+    <!--2 versions jQuery are being used, noConflict() is used for preventing conflic.-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/drag-panes.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+</head>
+
+<body id="home">
+
+    <header id="header">
+        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <style type="text/css">
+
+
+            </style>
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/bitcoin_PNG48.png" width="60px" height="60px" alt="logo"></a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll active"><a href="#home">Home</a></li>
+                        <li class="scroll"><a href="#historyTable">History Table</a></li>
+                        <li class="scroll"><a href="#priceLine">Trending</a></li>
+                        <li class="scroll"><a href="#bitcoinSummary">Price summary</a></li>
+                        <li class="scroll"><a href="#newsFinal">News</a></li>
+                        <li class="scroll"><a href="#services">Services</a></li>
+                        <li class="scroll"><a href="#portfolio">Future development</a></li>
+                        <li class="scroll"><a href="#our-team">Team</a></li>
+                        <li class="scroll"><a href="#pricing">Pricing</a></li>
+                        <li class="scroll"><a href="#contact-us">Contact</a></li>
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+    <section id="main-slider">
+        <div class="owl-carousel">
+            <div class="item" style="background-image: url(images/slider/bg4.jpg);">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+							<div class="carousel-caption" style="max-width:2000px">
+                                <div class="carousel-content">
+                                    <h2>Real-time transaction data display </h2>
+                                    <p>Grab the data for you, anytime, anywhere.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+             <div class="item" style="background-image: url(images/slider/bg3.jpeg);">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+							<div class="carousel-caption">
+                                <div class="carousel-content">
+                                    <h2>Customized graphs based on your needs </h2>
+                                    <p>Most specific information than ever.</p>
+                                </div>
+                            </div>
+							</div>
+                        </div> </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.owl-carousel-->
+    </section><!--/#main-slider-->
+
+    <div style="font-family: Verdana, Tahoma, Arial, sans-serif;font-size: 10px;color: #C9C6BD;text-align: right;padding:4px 4px 0px 4px;margin: 0;width: 100%;border: 1px solid #eee!important;"><iframe src="https://widget.coinlib.io/?type=horizontal&theme=light&pref_coin_id=1505&invert_hover=no" width="100%" height="22" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe></div>
+
+
+    <section id="historyTable">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Historic Trade Volumes</h2>
+                <p class="text-center wow fadeInDown">the last 10 records from <span id="start_date"></span></p>
+
+                <!--<p align="center">-->
+                        <!--<input type="date" id="user_selected_date">-->
+                        <!--<button id="date_search_button_ajax">Show Me!</button>-->
+                        <!--<select id="data_source_select">-->
+                            <!--<option value="/trade_his/" selected="selected">Kraken</option>-->
+                            <!--<option value="/trade_his2/">Coinbase</option>-->
+                        <!--</select>-->
+                    <!--</p>-->
+
+                <!--Above are the original code made by Mengyu.-->
+
+                <div class="col-sm-12 row wow fadeInDown center-block">
+                        <div class="col-sm-2 col-sm-offset-4">
+                            <input type="date" id="user_selected_date" class="form-control" style="text-align:center">
+                        </div>
+                        <button type="button" id="date_search_button_ajax" class="btn btn-primary col-sm-1 btn-sm center-block" >Show Me!</button>
+                        <div class="col-sm-2">
+                            <select id="data_source_select" class="form-control">
+                                <option value="/trade_his/" selected="selected">Kraken</option>
+                                <option value="/trade_his2/">Coinbase</option>
+                            </select>
+                        </div>
+                    <!--<div style="margin-top:60px"></div>-->
+                </div>
+                <br><br>
+                <p id="table_test_111"></p>
+            </div>
+        </div>
+    </section>
+    <!--Place historical table in the above section-->
+
+
+        <!-- BitCoin Summary -->
+    </section>
+
+
+    <section id="priceLine" class ="wow fadeIn">
+        <div class="section-header">
+            <h2 class="section-title text-center wow fadeInDown"> Price line chart</h2>
+            <div class="row col-sm-12 wow fadeInDown marginBottom">
+                <div class="col-sm-2 col-sm-offset-5">Data Source:</div>
+                <div class="col-sm-2">
+                    <select id="DSselect" class="form-control">
+                        <option value="1" selected="selected">Kraken</option>
+                        <option value="2">Coinbase</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <style type="text/css">
+            text.highcharts-credits{
+                display: none;
+            }
+            .marginBottom{
+                margin-bottom: 20px;
+            }
+
+
+        </style>
+
+        <div class="container" id="lcContainer">
+            <div id="lc" style= "height:600px">
+
+            </div>
+
+        </div>
+
+        <div class="container" id="lc1Container" hidden>
+            <div id="lc1" style= "height:600px">
+
+            </div>
+
+        </div>
+
+        <script type="text/javascript">
+            jQuery( document ).ready(function( $ ) {
+                $(function() {
+                    Highcharts.setOptions({
+                        lang: {
+                            rangeSelectorZoom: ''
+                        }
+                    });
+
+                    //Kraken
+                    $.getJSON('/api/trade_chart/all', function (data) {
+                        var ohlc = [],
+                            volume = [],
+                            dataLength = data.length,
+                            // set the allowed units for data grouping
+                            groupingUnits = [[
+                                'week',                         // unit name
+                                [1]                             // allowed multiples
+                            ], [
+                                'month',
+                                [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+                            ]];
+                        for (i=0; i < dataLength; i++) {
+                            var timestamp = Date.parse(new Date(data[i][0]));
+                            ohlc.push([
+                                timestamp, // the date
+                                data[i][1], // open
+                                data[i][2], // high
+                                data[i][3], // low
+                                data[i][4] // close
+                            ]);
+                            volume.push([
+                                timestamp, // the date
+                                data[i][5] // the volume
+                            ]);
+                        }
+                        // create the chart
+                        $('#lc').highcharts('StockChart', {
+                            rangeSelector: {
+                                selected: 1,
+                                inputDateFormat: '%d-%m-%Y'
+                            },
+                            title: {
+                                text: 'Bitcoin Price and Volume'
+                            },
+                            xAxis: {
+                                dateTimeLabelFormats: {
+                                    millisecond: '%H:%M:%S.%L',
+                                    second: '%H:%M:%S',
+                                    minute: '%H:%M',
+                                    hour: '%H:%M',
+                                    day: '%d-%m-%Y',
+                                    week: '%d-%m',
+                                    month: '%m-%Y',
+                                    year: '%Y'
+                                }
+                            },
+                            tooltip: {
+                                split: false,
+                                shared: true,
+                            },
+                            yAxis: [{
+                                labels: {
+                                    align: 'right',
+                                    x: -3
+                                },
+                                title: {
+                                    text: 'Price'
+                                },
+                                height: '65%',
+                                resize: {
+                                    enabled: true
+                                },
+                                lineWidth: 2
+                            }, {
+                                labels: {
+                                    align: 'right',
+                                    x: -3
+                                },
+                                title: {
+                                    text: 'Volume'
+                                },
+                                top: '65%',
+                                height: '35%',
+                                offset: 0,
+                                lineWidth: 2
+                            }],
+                            series: [{
+                                type: 'candlestick',
+                                name: 'Bitcoin Price',
+                                color: 'green',
+                                lineColor: 'green',
+                                upColor: 'red',
+                                upLineColor: 'red',
+                                tooltip: {
+                                },
+                                navigatorOptions: {
+                                    color: Highcharts.getOptions().colors[0]
+                                },
+                                data: ohlc,
+                                dataGrouping: {
+                                    units: groupingUnits
+                                },
+                                id: 'sz'
+                            },{
+                                type: 'column',
+                                name: 'Volume',
+                                data: volume,
+                                yAxis: 1,
+                                dataGrouping: {
+                                    units: groupingUnits
+                                }
+                            }]
+                        });
+                    });
+
+                    //Coinbase
+                    $.getJSON('/api/trade_chart2/all', function (data) {
+                        //Change the data source here
+                        var ohlc = [],
+                            volume = [],
+                            dataLength = data.length,
+                            // set the allowed units for data grouping
+                            groupingUnits = [[
+                                'week',                         // unit name
+                                [1]                             // allowed multiples
+                            ], [
+                                'month',
+                                [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+                            ]];
+                        for (i=0; i < dataLength; i++) {
+                            var timestamp = Date.parse(new Date(data[i][0]));
+                            ohlc.push([
+                                timestamp, // the date
+                                data[i][1], // open
+                                data[i][2], // high
+                                data[i][3], // low
+                                data[i][4] // close
+                            ]);
+                            volume.push([
+                                timestamp, // the date
+                                data[i][5] // the volume
+                            ]);
+                        }
+                        // create the chart
+                        $('#lc1').highcharts('StockChart', {
+                            rangeSelector: {
+                                selected: 1,
+                                inputDateFormat: '%d-%m-%Y'
+                            },
+                            title: {
+                                text: 'Bitcoin Price and Volume'
+                            },
+                            xAxis: {
+                                dateTimeLabelFormats: {
+                                    millisecond: '%H:%M:%S.%L',
+                                    second: '%H:%M:%S',
+                                    minute: '%H:%M',
+                                    hour: '%H:%M',
+                                    day: '%d-%m-%Y',
+                                    week: '%d-%m',
+                                    month: '%m-%Y',
+                                    year: '%Y'
+                                }
+                            },
+                            tooltip: {
+                                split: false,
+                                shared: true,
+                            },
+                            yAxis: [{
+                                labels: {
+                                    align: 'right',
+                                    x: -3
+                                },
+                                title: {
+                                    text: 'Price'
+                                },
+                                height: '65%',
+                                resize: {
+                                    enabled: true
+                                },
+                                lineWidth: 2
+                            }, {
+                                labels: {
+                                    align: 'right',
+                                    x: -3
+                                },
+                                title: {
+                                    text: 'Volume'
+                                },
+                                top: '65%',
+                                height: '35%',
+                                offset: 0,
+                                lineWidth: 2
+                            }],
+                            series: [{
+                                type: 'candlestick',
+                                name: 'Bitcoin Price',
+                                color: 'green',
+                                lineColor: 'green',
+                                upColor: 'red',
+                                upLineColor: 'red',
+                                tooltip: {
+                                },
+                                navigatorOptions: {
+                                    color: Highcharts.getOptions().colors[0]
+                                },
+                                data: ohlc,
+                                dataGrouping: {
+                                    units: groupingUnits
+                                },
+                                id: 'sz'
+                            },{
+                                type: 'column',
+                                name: 'Volume',
+                                data: volume,
+                                yAxis: 1,
+                                dataGrouping: {
+                                    units: groupingUnits
+                                }
+                            }]
+                        });
+                    });
+                })
+                $('#DSselect').on('change', function() {
+                    console.log(this.value);
+                    if(this.value==2){
+                        $( "#lcContainer" ).hide();
+                        $("#lc1Container").show();
+                    }
+                    else {
+                        $( "#lc1Container" ).hide();
+                        $("#lcContainer").show();
+                    }
+
+                });
+
+            });
+
+
+
+
+            // function ChangeDataSource(value){
+            //     console.log("abc"+value)
+            //
+            // }
+        </script>
+    </section>
+
+    <section id="bitcoinSummary" class = "wow fadeIn">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown"> BitCoin price summary</h2>
+            </div>
+            <script type="text/javascript">
+                baseUrl = "https://widgets.cryptocompare.com/";
+                var scripts = document.getElementsByTagName("script");
+                var embedder = scripts[ scripts.length - 1 ];
+                (function (){
+                    var appName = encodeURIComponent(window.location.hostname);
+                    if(appName==""){appName="local";}
+                    var s = document.createElement("script");
+                    s.type = "text/javascript";
+                    s.async = true;
+                    var theUrl = baseUrl+'serve/v1/coin/summary?fsym=BTC&tsyms=USD,EUR,CNY,GBP';
+                    s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                    embedder.parentNode.appendChild(s);
+                })();
+            </script>
+
+        </div>
+    </section>
+
+
+    <section id="newsFinal" class="wow fadeIn">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown"> Latest news</h2>
+                <p class="text-center wow fadeInDown">Bring you the latest news</p>
+            </div>
+            <div class="row">
+
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/slider-2-450x600.jpg" alt="News 1">
+                        <div class="caption">
+                            <a href="https://bitcoin.com.au/bitcoin-in-house-of-representatives/">
+                                Mainstream news groups are fixated on the ‘blue wave’ sweeping America during last night’s midterm elections. But here at Bitcoin Australia, we’re more interested in the flood of support for pro-cryptocurrency politicians.
+                            </a>
+                     <!--<p> Etizzle shiznit fo shizzle sizzle augue hendrerizzle accumsizzle. Gizzle izzle est. Vivamizzle hizzle dolor, sure vitae, yippiyo id, ultrices izzle, sheezy.</p>-->
+                            <!--<p><a href="#" class="btn btn-primary" role="button">Button</a></p>-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/slider-3-450x600.jpg" alt="News 2">
+                        <div class="caption">
+                            <a href="https://www.forbes.com/sites/billybambrough/2018/11/08/surprising-bitcoin-survey-reveals-uk-to-be-a-nation-of-crypto-believers/#683ff0787c20">
+                                Bitcoin, despite its and other cryptocurrencies' struggles throughout this year, appears to remain an attractive alternative to the current financial system (in the UK, at least).
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/slider-4-450x600.jpg" alt="News 3">
+                        <div class="caption">
+                            <a href="https://www.intheblack.com/articles/2018/11/08/brian-forde-bitcoin-blockchain-restore-trust">
+                                Bitcoin and blockchain can restore trust in financial transactions, one of the foremost authorities on cryptocurrencies, Brian Forde, told the World Congress of Accountants (WCOA) meeting in Sydney on November 7, 2018.
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/slider-5-450x600.jpg" alt="News 4">
+                        <div class="caption">
+                            <a href="https://www.express.co.uk/finance/city/1041688/bitcoin-price-news-will-bitcoin-repeat-20000-dollar-high-christmas-latest-btc-forecast">
+                                BITCOIN has lately enjoyed a period of stability, with the cryptocurrency averaging around the £4,969 ($6,500) mark for the last two months. But will bitcoin’s value repeat it's £15,290.50 ($20,000) high this Christmas?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--News section ending-->
+
+
+    <section id="hero-text" class="wow fadeIn">
+        <div class="container">`
+            <div class="row">
+                <div class="col-sm-9">
+                    <h2>Illuminate your inspiration</h2>
+                    <p>Our product brings your Bitcoin exchange information in a more understandable way. Also, we provide extra service for our premium user.
+                    </p>
+                </div>
+                <div class="col-sm-3 text-right">
+                    <a class="btn btn-primary btn-lg" href="#pricing">Start exploring!</a>
+                </div>
+            </div>
+        </div>
+    </section><!--/#hero-text-->
+
+    <section id="services" >
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Our Services</h2>
+                <p class="text-center wow fadeInDown">Our services are simple, grab the first handed BitCoin information for you, anytime, anywhere.</p>
+            </div>
+
+            <div class="row">
+                <div class="features">
+                    
+                    <div class="col-md-4 " data-wow-duration="300ms" data-wow-delay="0ms">
+                        <div class="media service-box">
+						<div class="hexagon">
+						  <div class="inner">
+							  <i class="fa fa-bitcoin"></i>
+						  </div>
+						</div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Price Historical Table</h4>
+                                <p>We provide the market history for up to 10 days.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-10 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <div class="media service-box">
+						<div class="hexagon">
+						  <div class="inner">
+							<i class="fa fa-line-chart"></i>
+						  </div>
+						</div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Price Trending Line</h4>
+                                <p>Our application is able to provide real-time price tracking on your needs.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-10 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                        <div class="media service-box">
+                            <div class="hexagon">
+                                <div class="inner">
+                                    <i class="fa fa-newspaper-o"></i>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">BitCoin News</h4>
+                                <p>We give you a shortcut to the latest BitCoin news.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+
+                </div>
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#services-->
+
+
+   <section id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">What we plant to develop in the future?</h2>
+                <p class="text-center wow fadeInDown">Our website's functions still need to be further improved, keep waiting!</p>
+            </div>
+
+            <div class="text-center" style="display:none">
+                <ul class="portfolio-filter">
+                    <li><a class="active" href="#" data-filter="*">Online Transaction</a></li>
+                    <li><a href="#" data-filter=".designing">BitCoin Discussion Forum</a></li>
+                    <li><a href="#" data-filter=".mobile">Native Mobile App</a></li>
+                    <li><a href="#" data-filter=".development">BitCoin Statistics</a></li>
+                </ul><!--/#portfolio-filter-->
+            </div>
+
+            <div class="portfolio-items">
+                <div class="portfolio-item designing">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/PaymentSample.png" alt="">
+                        <div class="portfolio-info">
+                            <h3>Online Transaction</h3>
+                            <a class="preview" href="images/portfolio/PaymentSample.png"  data-toggle="lightbox" data-title="A random title" data-footer="A custom footer text"><i class="fa fa-eye"></i> </a>
+
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/discussionSample.png" alt="">
+                        <div class="portfolio-info">
+                            <h3>BitCoin Discussion Forum</h3>
+                            <a class="preview" href="images/portfolio/discussionSample.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/mobileApp.png" alt="">
+                        <div class="portfolio-info">
+                            <h3>Native Mobile App</h3>
+                            <a class="preview" href="images/portfolio/mobileApp.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/BitcoinStat.png" alt="">
+                        <div class="portfolio-info">
+                            <h3>BitCoin Statistics</h3>
+                            <a class="preview" href="images/portfolio/BitcoinStat.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+            </div>
+        </div><!--/.container-->
+    </section><!--/#portfolio-->
+
+
+
+    <section id="our-team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Our Best Team</h2>
+                <p class="text-center wow fadeInDown">Below are our development team and roles.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-1 ">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/team/ZM.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Meng Zhang</h3>
+                            <span>Project Manager</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 ">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/team/WJ.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Jie Wang</h3>
+                            <span>Librarian</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 ">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/team/LMY.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Mengyu Lyu</h3>
+                            <span>Trouble shooter</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 ">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/team/ZMH.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Muhan Zhang</h3>
+                            <span>Librarian</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 ">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/team/LKX.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Kaixia Liu</h3>
+                            <span>Trouble shooter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/#our-team-->
+
+    <section id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Our Pricing</h2>
+                <p class="text-center wow fadeInDown">We are planning to implement more functions to the project, and may start making profit by proving more customized services.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
+                        <ul class="pricing">
+                            <li class="plan-header">
+                                <div class="price-duration">
+                                    <span class="price">
+                                        Free
+                                    </span>
+                                    <span class="duration">
+                                        per month
+                                    </span>
+                                </div>
+
+                                <div class="plan-name">
+                                    Basic
+                                </div>
+                            </li>
+                            <li><p>Contains all the basic functions, it is completely free and convenient than ever before. </p></li>
+                            <li class="plan-purchase"><a class="btn btn-primary"  data-toggle="modal" data-target="#myModal1" href="#pricing">Order Now!</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
+                        <ul class="pricing featured">
+                            <li class="plan-header">
+                                <div class="price-duration">
+                                    <span class="price">
+                                        $5
+                                    </span>
+                                    <span class="duration">
+                                        per month
+                                    </span>
+                                </div>
+
+                                <div class="plan-name">
+                                    Standard
+                                </div>
+                            </li>
+                             <li><p>Subscribe any cryptocurrency news that you want, enjoying the monthly report only created for it. </p></li>
+                            <li class="plan-purchase"><a class="btn btn-primary" data-toggle="modal" data-target="#myModal1" href="#pricing">Order Now!</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
+                        <ul class="pricing">
+                            <li class="plan-header">
+                                <div class="price-duration">
+                                    <span class="price">
+                                        $30
+                                    </span>
+                                    <span class="duration">
+                                        per month
+                                    </span>
+                                </div>
+
+                                <div class="plan-name">
+                                    Gold
+                                </div>
+                            </li>
+                             <li><p>Our professional consultant team will provide investment recommendation report.   </p></li>
+                            <li class="plan-purchase"><a class="btn btn-primary" data-toggle="modal" data-target="#myModal1" href="#pricing">Order Now!</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section><!--/#pricing-->
+
+
+    <div class="modal fade" id="myModal1" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Thanks for trying!</h4>
+                </div>
+                <div class="modal-body">
+                    <p>The function you are calling will be coming out soon! Keep waiting!</p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <section id="contact-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Contact Us</h2>
+                <p class="text-center wow fadeInDown">If you have any problem relating to our application, feel free to contact.</p>
+            </div>
+        </div>
+    </section><!--/#contact-us-->
+
+
+
+    <section id="contact">
+
+        <div class="container-wrapper">
+            <div class="container contact-info">
+                <div class="row">
+				  <div class="col-sm-4 col-md-4">
+                        <div class="contact-form">
+                            <h3>Contact Info</h3>
+
+                            <address>
+                              <strong>Project 22 Group 7</strong><br>
+                                The University of Sydney<br>
+                                NSW 2006<br>
+                                Australia<br>
+                              <abbr title="Phone">P:</abbr> (61) 123-45678
+                            </address>
+					</div></div>
+                    <div class="col-sm-8 col-md-8">
+                        <div class="contact-form">
+
+                        <!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
+
+		<form name="sentMessage" id="contactForm"  validate>
+	       <h3>Contact Form</h3>
+		 <div class="control-group">
+                    <div class="controls">
+			<input type="text" class="form-control"
+			   	   placeholder="Full Name" id="name" required
+			           data-validation-required-message="Please enter your name" />
+			  <p class="help-block"></p>
+		   </div>
+	         </div>
+                <div class="control-group">
+                  <div class="controls">
+			<input type="email" class="form-control" placeholder="Email"
+			   	            id="email" required
+			   		   data-validation-required-message="Please enter your email" />
+		</div>
+	    </div>
+
+               <div class="control-group">
+                 <div class="controls">
+				 <textarea rows="10" cols="100" class="form-control"
+                       placeholder="Message" id="message" required
+		       data-validation-required-message="Please enter your message" minlength="5"
+                       data-validation-minlength-message="Min 5 characters"
+                        maxlength="999" style="resize:none"></textarea>
+		</div>
+               </div>
+	     <div id="success">
+
+         </div> <!-- For success/fail messages -->
+
+            <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-primary pull-right" aria-hidden="true">Send me</button>
+
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Thanks for the feedback!</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Your message has been sent, thank you!</p>
+                        </div>
+                        <div class="modal-footer">
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <script>
+                jQuery( document ).ready(function( $ ) {
+
+                    $('#button').click(function(){
+                        var contactForm = $("#contactForm").serialize();
+                        //send to the ajax to handling the request.
+                        console.log(contactForm);
+                    });
+                })
+
+            </script>
+
+
+
+	  
+
+
+            <!--<br />-->
+          </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</div>
+   </section><!--/#bottom-->
+
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2018 COMP5703 CP227
+                </div>
+                <div class="col-sm-6">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://github.sydney.edu.au/COMP5703/comp5703cp227"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="css/owl.transitions.css"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+
+    <script src="js/jquery.isotope.min.js"></script>
+
+    <script src="js/jquery.inview.min.js"></script>
+
+    <script src="js/wow.min.js"></script>
+ <script src="contact/jqBootstrapValidation.js"></script>
+ <script src="contact/contact_me.js"></script>
+    <script src="js/custom-scripts.js"></script>
+
+
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/drag-panes.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            showLatest();
+            $('#data_source_select').on('change', function () {
+                showLatest();
+            });
+
+            onSearchClick();
+        });
+
+        var showLatest = function () {
+            var currentDate = new Date();
+            var month = currentDate.getMonth() - 0 + 1;
+            currentDate = currentDate.getFullYear() + "-" + month + "-" + currentDate.getDate();
+            var queryPath = $('#data_source_select').val();
+            var jqxhr = $.get('/api' + queryPath + currentDate);
+
+            jqxhr.done(function (result) {
+                var local = "<div style=\"background: rgb(255, 255, 255); border: 6px solid rgb(255, 205, 4); border-radius: 0px; color: rgb(0, 0, 0);\">" +
+                    "<table class=\"table table-hover text-center table-bordered table-responsive\" style=\"font-weight: 600;\">" +
+                    "<th class=\"text-center\">Date</th>\n" +
+                    "<th class=\"text-center\">Price</th><th class=\"text-center\">Volume(BTC)</th>\n" +
+                    "<th class=\"text-center\">Volume(USD)</th></tr>";
+                //loop
+                for (var i = 0; i<result.length;i++){
+                    local = local + "<td>" + result[i].Vol_date +"</td><td>"+result[i].Weighted_price +
+                        "</td><td>"+ result[i].Volume + "</td><td>" + result[i].Weighted_price*result[i].Volume + "</td></tr>";
+                }
+                local = local + '</table></div>';
+                $('#table_test_111').html(local);
+                $('#start_date').html(result[0].Vol_date);
+            });
+
+            jqxhr.fail(function (result) {
+                $('#table_test_111').html("res status: " + jqxhr.status);
+            });
+        }
+
+        var onSearchClick = function () {
+            $("#date_search_button_ajax").on('click', function () {
+
+                var selected_date = $('#user_selected_date').val();
+                var queryPath = $('#data_source_select').val();
+
+                if (selected_date === "") {
+                    alert("please select a date for querying");
+                    return;
+                }
+
+                var jqxhr = $.get('/api' + queryPath + selected_date);
+
+                // alert($('#selected_date').val());
+                jqxhr.done(function (result) {
+                    var local = "<div style=\"background: rgb(255, 255, 255); border: 6px solid rgb(255, 205, 4); border-radius: 0px; color: rgb(0, 0, 0);\">" +
+                        "<table class=\"table table-hover text-center table-bordered table-responsive\" style=\"font-weight: 600;\">" +
+                        " <tr><th class=\"text-center\">Date</th>\n" +
+                        "<th class=\"text-center\">Price</th><th class=\"text-center\">Volume(BTC)</th>\n" +
+                        "<th class=\"text-center\">Volume(USD)</th></tr>";
+                    //loop
+                    for (var i = 0; i<result.length;i++){
+                        local = local + "<td>" + result[i].Vol_date +"</td><td>"+result[i].Weighted_price +
+                            "</td><td>"+ result[i].Volume + "</td><td>" + result[i].Weighted_price*result[i].Volume + "</td></tr>";
+                    }
+                    local = local + '</table></div>';
+                    $('#table_test_111').html(local);
+                    $('#start_date').html(result[0].Vol_date);
+                });
+
+                jqxhr.fail(function (result) {
+                    $('#table_test_111').html("res status: " + jqxhr.status);
+                });
+            });
+        }
+    </script>
+</body>
+</html>
