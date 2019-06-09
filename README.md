@@ -16,3 +16,5 @@
 - Librarian:
 	- Jie Wang
 	- Muhan Zhang
+## RUN
+- This project is mainly constructed using HTML/CSS. To run locally, just clone the repo and open public/index.html in your browsers.
